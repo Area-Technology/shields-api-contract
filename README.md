@@ -128,7 +128,7 @@ Returns an svg string for a Hardware with the specified id.
 function getHardwareSVG(uint16 hardware) external view returns (string memory);
 ```
 
-## Frame
+## Frames
 
 ### getFrame(uint16 frame)
 
