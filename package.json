@@ -1,6 +1,6 @@
 {
   "name": "@areatechnology/shields-api",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "types": "./dist/typechain/index.d.ts",
   "scripts": {
     "build": "yarn build:contracts && yarn build:package",
