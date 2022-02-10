@@ -27,7 +27,7 @@ import "@areatechnology/shields-api/contracts/ShieldsAPIConsumer.sol";
 contract MyContract is ShieldsAPIConsumer {
 
   function myFunction() public {
-    // You can access any of the ShieldsAPI methods this way
+    // Any methods in the ShieldsAPI contract can be accessed this this way
     string memory svg = ShieldsAPI.getShieldSVG(1);
   }
 
