@@ -1,6 +1,6 @@
 # Shields API
 
-**Placeholder Description**
+The Shields API contract makes it simple to work with the Shields design system on-chain.
 
 ## Installation
 
