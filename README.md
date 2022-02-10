@@ -73,7 +73,7 @@ function getShieldSVG(uint16 field, uint24[4] memory colors, uint16 hardware, ui
 Returns true if the Shield with the specified id has been built in the Shields collection.
 
 ```sol
-  function isShieldBuilt(uint256 shieldId) external view returns (bool);
+function isShieldBuilt(uint256 shieldId) external view returns (bool);
 ```
 
 ## Fields
@@ -83,7 +83,7 @@ Returns true if the Shield with the specified id has been built in the Shields c
 Returns complete information about a Field.
 
 ```sol
-  function getField(uint16 field, uint24[4] memory colors) external view returns (IFieldGenerator.FieldData memory);
+function getField(uint16 field, uint24[4] memory colors) external view returns (IFieldGenerator.FieldData memory);
 ```
 
 ### getFieldTitle(uint16 field, uint24[4] memory colors)
@@ -91,7 +91,7 @@ Returns complete information about a Field.
 Returns the title for a Field.
 
 ```sol
-  function getFieldTitle(uint16 field, uint24[4] memory colors) external view returns (string memory);
+function getFieldTitle(uint16 field, uint24[4] memory colors) external view returns (string memory);
 ```
 
 ### getFieldSVG(uint16 field, uint24[4] memory colors)
@@ -99,7 +99,7 @@ Returns the title for a Field.
 Returns an svg string for a Field with the specified id and colors.
 
 ```sol
-  function getFieldSVG(uint16 field, uint24[4] memory colors) external view returns (string memory);
+function getFieldSVG(uint16 field, uint24[4] memory colors) external view returns (string memory);
 ```
 
 ## Hardware
@@ -109,7 +109,7 @@ Returns an svg string for a Field with the specified id and colors.
 Returns complete information about a Hardware.
 
 ```sol
-  function getHardware(uint16 hardware) external view returns (IHardwareGenerator.HardwareData memory);
+function getHardware(uint16 hardware) external view returns (IHardwareGenerator.HardwareData memory);
 ```
 
 ### getHardwareTitle(uint16 hardware)
@@ -117,7 +117,7 @@ Returns complete information about a Hardware.
 Returns the title for a Hardware.
 
 ```sol
-  function getHardwareTitle(uint16 hardware) external view returns (string memory);
+function getHardwareTitle(uint16 hardware) external view returns (string memory);
 ```
 
 ### getHardwareSVG(uint16 hardware)
@@ -125,7 +125,7 @@ Returns the title for a Hardware.
 Returns an svg string for a Hardware with the specified id.
 
 ```sol
-  function getHardwareSVG(uint16 hardware) external view returns (string memory);
+function getHardwareSVG(uint16 hardware) external view returns (string memory);
 ```
 
 ## Frame
@@ -135,7 +135,7 @@ Returns an svg string for a Hardware with the specified id.
 Returns complete information about a Frame.
 
 ```sol
-  function getFrame(uint16 frame) external view returns (IFrameGenerator.FrameData memory);
+function getFrame(uint16 frame) external view returns (IFrameGenerator.FrameData memory);
 ```
 
 ### getFrameTitle(uint16 frame)
@@ -143,7 +143,7 @@ Returns complete information about a Frame.
 Returns the title for a Frame.
 
 ```sol
-  function getFrameTitle(uint16 frame) external view returns (string memory);
+function getFrameTitle(uint16 frame) external view returns (string memory);
 ```
 
 ### getFrameSVG(uint16 frame)
@@ -151,5 +151,5 @@ Returns the title for a Frame.
 Returns an svg string for a Frame with the specified id.
 
 ```sol
-  function getFrameSVG(uint16 frame) external view returns (string memory);
+function getFrameSVG(uint16 frame) external view returns (string memory);
 ```
