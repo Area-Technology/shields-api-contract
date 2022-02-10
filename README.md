@@ -1,6 +1,6 @@
 # Shields API
 
-**Placeholder Description**
+The Shields API contract makes it simple to work with the Shields design system on-chain.
 
 ## Installation
 
@@ -27,7 +27,7 @@ import "@areatechnology/shields-api/contracts/ShieldsAPIConsumer.sol";
 contract MyContract is ShieldsAPIConsumer {
 
   function myFunction() public {
-    // You can access any of the ShieldsAPI methods this way
+    // Any methods in the ShieldsAPI contract can be accessed this way
     string memory svg = ShieldsAPI.getShieldSVG(1);
   }
 
@@ -128,7 +128,7 @@ Returns an svg string for a Hardware with the specified id.
 function getHardwareSVG(uint16 hardware) external view returns (string memory);
 ```
 
-## Frame
+## Frames
 
 ### getFrame(uint16 frame)
 
