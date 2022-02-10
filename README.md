@@ -78,7 +78,7 @@ Returns true if the Shield with the specified id has been built in the Shields c
 
 ## Fields
 
-### getField(uint16 field, uint24[4] memory colors);
+### getField(uint16 field, uint24[4] memory colors)
 
 Returns complete information about a Field.
 
@@ -86,7 +86,7 @@ Returns complete information about a Field.
   function getField(uint16 field, uint24[4] memory colors) external view returns (IFieldGenerator.FieldData memory);
 ```
 
-### getFieldTitle(uint16 field, uint24[4] memory colors);
+### getFieldTitle(uint16 field, uint24[4] memory colors)
 
 Returns the title for a Field.
 
@@ -94,7 +94,7 @@ Returns the title for a Field.
   function getFieldTitle(uint16 field, uint24[4] memory colors) external view returns (string memory);
 ```
 
-### getFieldSVG(uint16 field, uint24[4] memory colors);
+### getFieldSVG(uint16 field, uint24[4] memory colors)
 
 Returns an svg string for a Field with the specified id and colors.
 
@@ -104,7 +104,7 @@ Returns an svg string for a Field with the specified id and colors.
 
 ## Hardware
 
-### getHardware(uint16 hardware);
+### getHardware(uint16 hardware)
 
 Returns complete information about a Hardware.
 
@@ -112,7 +112,7 @@ Returns complete information about a Hardware.
   function getHardware(uint16 hardware) external view returns (IHardwareGenerator.HardwareData memory);
 ```
 
-### getHardwareTitle(uint16 hardware);
+### getHardwareTitle(uint16 hardware)
 
 Returns the title for a Hardware.
 
@@ -120,7 +120,7 @@ Returns the title for a Hardware.
   function getHardwareTitle(uint16 hardware) external view returns (string memory);
 ```
 
-### getHardwareSVG(uint16 hardware);
+### getHardwareSVG(uint16 hardware)
 
 Returns an svg string for a Hardware with the specified id.
 
@@ -130,7 +130,7 @@ Returns an svg string for a Hardware with the specified id.
 
 ## Frame
 
-### getFrame(uint16 frame);
+### getFrame(uint16 frame)
 
 Returns complete information about a Frame.
 
@@ -138,7 +138,7 @@ Returns complete information about a Frame.
   function getFrame(uint16 frame) external view returns (IFrameGenerator.FrameData memory);
 ```
 
-### getFrameTitle(uint16 frame);
+### getFrameTitle(uint16 frame)
 
 Returns the title for a Frame.
 
@@ -146,7 +146,7 @@ Returns the title for a Frame.
   function getFrameTitle(uint16 frame) external view returns (string memory);
 ```
 
-### getFrameSVG(uint16 frame);
+### getFrameSVG(uint16 frame)
 
 Returns an svg string for a Frame with the specified id.
 
